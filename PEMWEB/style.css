@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.latar{
+    width: 100%;
+    height: 800px;
+    background-image: url(Background.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.biodata{
+    width: 90%;
+    max-width: 440px;
+    border-radius: 16px;
+    padding: 50px 35px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid rgba(255, 225, 225, 0.3);
+    background:rgba(255, 225, 225, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+.biodata img{
+    width: 140px;
+    border-radius: 50%;
+}
+
+.biodata h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.dropdown {
+    display: inline-block;
+    margin-left: px;
+	padding: 0;
+}
+
+.dropdown img{ 
+    width: 45px;
+    margin-left: 300px;
+    border-radius: 0%;
+    transition: background 0.5s;
+}
+
+.dropdown ul {
+    list-style-type: none;
+    margin-left: 300px;
+	padding: 0;
+}
+
+.biodata .dropdown:hover .isi-dropdown {
+    display: block;
+}
+
+.biodata .isi-dropdown a:hover {
+    color: #ffffff;
+}
+
+.biodata .isi-dropdown {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+    z-index: 1;
+    padding: 10px 30px;
+   
+}
+
+.biodata .isi-dropdown a {
+    color: #ffffff ;
+}
+
+.biodata .isi-dropdown a:hover {
+    color: #ffffff ;
+    background: #546c79;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.biodata p{
+    font-size: 18px;
+    margin: 10px auto;
+    max-width: 330px;
+}
+
+.biodata .links img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px 5px;
+    transition: background 0.5s;
+}
+
+.biodata .links img:hover{
+    background: #00537b;
+}
+
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    background: #fff;
+    color: #00537b;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 30px 0 10px;
+}
